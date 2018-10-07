@@ -104,3 +104,11 @@ table {
     padding: 5px;
     border: 1px solid #fff;
   }
+  #code {
+    font-size: 15px;
+    background-color: #e6f0eb;
+    margin-right: 550px;
+  }
+  code {
+    color: #022e1f;
+  }

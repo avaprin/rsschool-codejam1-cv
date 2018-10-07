@@ -60,6 +60,44 @@
           <td>WebStorm<br>GitHub<br>Visual Studio<br>Visual Code></td>
         </tr>
       </table>
+        <p id="title">Code example(Taylor row for ln(1+x))</p>
+      <div id="code">
+        <code>
+            import java.text.*;<br>
+            import java.util.Scanner;<br>
+            public class sdfhstt {<br>
+                public static void main(String []args)<br>
+                {<br>
+                    Scanner in = new<br>
+                            Scanner((System.in));<br>
+                    double x,e,s=0;<br>
+                    int k;<br>
+                    System.out.println("введите k");<br>
+                    k = in.nextInt();<br>
+                    System.out.println("введите число принадлежащее промежутку (-1,1]");<br>
+                    x = in.nextDouble();<br>
+                    if((x<=-1)||(x>1))<br>
+                    {<br>
+                        System.out.println("ОШИБКА! введите число принадлежащее промежутку (-1,1]");<br>
+                        x = in.nextDouble();<br>
+                    }<br>
+                    NumberFormat f = NumberFormat.getNumberInstance();<br>
+                    f.setMaximumFractionDigits(k);<br>
+                    e = Math.pow(0.1,k+1);<br>
+                    double i = 1;<br>
+                    int l=1;<br>
+                    while(Math.abs(l*Math.pow(x,i)/i)>e)<br>
+                    {<br>
+                        s+=l*Math.pow(x,i)/i;<br>
+                        l*=-1;<br>
+                        i++;<br>
+                    }<br>
+                    System.out.println(f.format(s));<br>
+                    System.out.println(f.format(Math.log1p(x)));<br>
+                }<br>
+            }<br>
+        </code>
+      </div>
     </div>
 </body>
 </html>
