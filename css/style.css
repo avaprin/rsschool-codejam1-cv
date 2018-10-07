@@ -116,3 +116,10 @@ table {
       color: #727070;
       font-size: 25px;
   }
+  div {
+    font-family: 'Open Sans Condensed', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1024px;
+  
+  }
