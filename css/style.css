@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
+body {
+    background-color: #abe6de;
+}
+.sidenav {
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #727070;
+    padding-top: 20px;
+}
+
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #ffffff;
+    display: block;
+}
+
+.sidenav a:hover {
+    color: #c7e94d;
+    font-size: 30px;
+}
+
+.main {
+    margin-left: 160px; 
+    padding: 0px 10px;
+}
+
+.cont {
+    margin-left: 100px;
+}
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+img{
+    width:300px;
+    height:400px;
+    padding-bottom: 5px;
+}
+#main {
+    width: 500px;
+    height: 470px;
+    display: inline-block;
+    width: 30%;
+    padding: 20px;
+    color: #727070;
+}
+#main {
+    font-size: 35px;
+}
+#title {
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#info {
+    width: 300px;
+    height: 470px;
+    display: inline-block;
+    width: 40%;
+    padding: 20px;
+    color: #727070;
+    font-size: 20px;
+}
+#jarl {
+    width: 51px;
+    height: 51px;
+    margin-right: 5px;
+}
