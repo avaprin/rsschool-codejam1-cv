@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
 body {
     background-color: #abe6de;
+    max-width: 1024px;
+    min-width: 1024px;
 }
 .sidenav {
     height: 100%;
@@ -40,12 +42,11 @@ body {
     .sidenav a {font-size: 18px;}
 }
 img{
-    width:300px;
-    height:400px;
+    widows: 256px;
+    height: 312px;
     padding-bottom: 5px;
 }
 #main {
-    width: 500px;
     height: 470px;
     display: inline-block;
     width: 30%;
@@ -60,7 +61,6 @@ img{
     font-family: 'Times New Roman', Times, serif;
 }
 #info {
-    width: 300px;
     height: 470px;
     display: inline-block;
     width: 40%;
@@ -111,4 +111,8 @@ table {
   }
   code {
     color: #022e1f;
+  }
+  #exp {
+      color: #727070;
+      font-size: 25px;
   }
