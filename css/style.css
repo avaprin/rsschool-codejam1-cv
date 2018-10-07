@@ -90,3 +90,17 @@ img{
     margin-right: 20px;
     border-radius: 50%;
 }
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-right: 100px;
+    border: 5px double #000;
+  }
+  tr {
+      margin: auto;
+      font-size: 25px;
+  }
+  td, th {
+    padding: 5px;
+    border: 1px solid #fff;
+  }
