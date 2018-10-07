@@ -4,7 +4,7 @@ body {
 }
 .sidenav {
     height: 100%;
-    width: 160px;
+    width: 200px;
     position: fixed;
     z-index: 1;
     top: 0;
@@ -33,6 +33,7 @@ body {
 
 .cont {
     margin-left: 100px;
+    margin-right: 200px;
 }
 @media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
@@ -71,4 +72,21 @@ img{
     width: 51px;
     height: 51px;
     margin-right: 5px;
+}
+.container {
+    border: 2px solid #dedede;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+    margin-right: 100px;
+}
+.container img {
+    float: left;
+    max-width: 60px;
+    width: 100%;
+    max-height: 60px;
+    height: 100%;
+    margin-right: 20px;
+    border-radius: 50%;
 }
